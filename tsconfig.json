@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "es2020",
+        "jsx": "react-jsx",
+        "baseUrl": "./",
+        "paths": {
+            "*": [
+                "src/*"
+            ]
+        },
+        "typeRoots": [
+            "node_modules/@types",
+            "src/@types"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    }
+}

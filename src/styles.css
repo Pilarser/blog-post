@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono:200,300,400,500,700");
+
+.App {
+  font-family: "IBM Plex Mono";
+  text-align: center;
+}
+
+body {
+  font-family: "IBM Plex Mono";
+  background: #daede2;
+}
+
+.blog-container {
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+}
+.post-list {
+  display: grid;
+  flex-wrap: wrap;
+}
+
+.post-item {
+  flex: 50%;
+  margin-bottom: 10px;
+}
+.post-item {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.post-item:hover {
+  background-color: #e0e0e0;
+}
+
+.post-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  font-size: 14px;
+}
+
+.btn-more {
+  padding: 5px;
+  font-size: 10px;
+  border: none;
+  background: #ea2e49;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.back-button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
